@@ -1,0 +1,59 @@
+/* SectionTwo.css */
+.section-two-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.doctor-card {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+}
+
+.doctor-image {
+  width: 150px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.doctor-info {
+  text-align: left;
+}
+
+.specialty, .experience, .location, .consultation-fee, .availability {
+  margin: 5px 0;
+}
+
+.rating {
+  margin: 10px 0;
+}
+
+.rating-percentage {
+  font-weight: bold;
+  color: green; /* Adjust the color as needed */
+}
+
+.patient-stories {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.appointment-button {
+  background-color: #4CAF50; /* Button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Add more styles as needed to match the design in the image */
